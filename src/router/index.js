@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import EditeView from '@/views/EditeView.vue'
 
 
 const router = createRouter({
@@ -16,11 +15,6 @@ const router = createRouter({
       path: '/todo/:id',
       name: 'todo-item',
       component: HomeView
-    },
-    {
-      path: '/todo/edit/:id',
-      name: 'todo-edit',
-      component: EditeView
     }
   ]
 })
